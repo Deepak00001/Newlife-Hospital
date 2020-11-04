@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/********************************main**************************************/
+.maingame{
+	width: 100%;
+	background-color:#FADBD8  ;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+.maingame h1{
+	text-align: center;
+	margin-top: 70px;
+	color: #760824;
+	font-family: 'Lobster', cursive;
+}
+
+/*******************************************appointmentnumber**********************/
+
+.maingame .gameone{
+	width: 900px;
+	height: 600px;
+	margin-top: 70px;
+	/*background-image: url(../img/brown3.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824 ;
+	border-radius: 20px;
+}
+.maingametwo .gameone h2{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 20px;
+}
+.maingame .gameone #note{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.maingame .gameone #number{
+	height: 300px;
+	width: 300px;
+	margin-left: 300px;
+	margin-top: 40px;
+	background-color: #FADBD8;
+	color: #760824;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 250px;
+
+}
+.maingame #Enterbtn{
+	margin-left: 370px;
+	margin-top: 50px;
+	width: 150px;
+	display: block;
+	height: 50px;
+	background-color: #FADBD8;
+	color: #760824;
+	font-size: 24px;
+}
+.maingame .gameone #Enterbtn:hover{
+	background-color:#760824 ;
+	color: white;
+}
+
+/**************************************ENTER DETAILS**************************/
+
+.maingame .gametwo{
+	width: 900px;
+	height: 600px;
+	margin-top: 100px;
+	/*background-image: url(../img/brown2.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #760824;
+	margin-bottom: 200px;
+	border-radius: 20px;
+}
+.gameroundtwo .h2{
+	text-align: center;
+	color: #FDEDEC;
+	position: relative;
+	top: 20px;
+}
+.gameroundtwo #notetwo{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+.gameroundtwo .data{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+/*.gameroundtwo .data h2{
+	text-align: center;
+	color: #FDEDEC;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.gameroundtwo .data #text{
+	height: 80px;
+	width: 150px;
+	font-size: 50px;
+	color: #760824;
+	background-color:#FADBD8;
+}*/
+
+#dtailone{
+	font-size: 24px;
+	color: white;
+}
+#dtail{
+	width: 120%;
+	height: 30px;
+	margin: 5px;
+	font-size: 20px;
+
+}
+#dtailapp{
+	width: 120%;
+	height: 30px;
+	margin: 5px;
+	font-size: 20px;
+
+}
+.gameroundtwo #submitvalue{
+	width: 200px;
+	height: 40px;
+	margin-top: 30px;
+	background-color:#FADBD8;
+	color: #760824;
+	font-size: 24px;
+	display: block;
+}
+.gameroundtwo  #submitvalue:hover{
+	background-color:#760824 ;
+	color: white;
+}
+.gameroundtwo .data #output{
+	width: 120px;
+	height: 90px;
+	margin-top: 20px;
+	background-color: #FADBD8; 
+	display: none;
+	
+}
+.gameroundtwo .data #correct{
+	width: 120px;
+	height: 90px;
+	background-color: orangered;
+	display: none;
+}
+.gameroundtwo .data #incorrect{
+	width: 120px;
+	height: 90px;
+	display: none;
+	background-color: orangered;
+}
+
+
+/*****************************************footer************************************/
+
+footer{
+	width: 100%;
+	height: 70vh;
+	background-color: black;
+}
+footer .footer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: center;
+
+}
+
+
+/***********footer 1****************/
+
+
+
+footer .footerone{
+	height: 320px;
+	width: 250px;
+	margin-left: 150px;
+	position: relative;
+	top: 100px;
+	/*background-color: violet;*/
+}
+footer .footerone h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerone .one{
+	font-size: 20px;
+	color: #AEB6BF;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerone .one div{
+	margin: 15px;
+}
+footer .footerone .one div:hover{
+	color: white;
+}
+
+/*************footer two ******************/
+
+
+footer .footertwo{
+	height: 320px;
+	width: 320px;
+	margin-left: 80px;
+	position: relative;
+	top: 100px;
+	/*background-color: yellow;*/
+}
+footer .footertwo h3{
+	margin: 15px;
+	color:white;
+}
+footer .footertwo .two{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footertwo .two p{
+	font-size: 20px;
+	line-height: 28px;
+}
+footer .footertwo .two p:hover{
+	color: white;
+}
+
+
+/****************footer three *****************/
+
+
+
+footer .footerthree{
+	height: 320px;
+	width: 300px;
+	margin-left: 100px;
+	position: relative;
+	top: 100px;
+	/*background-color: yellowgreen;*/
+}
+footer .footerthree h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerthree .three{
+	font-size: 20px;
+	color: #AEB6BF ;
+	margin-top: 10px;
+	word-spacing: 1px;
+}
+footer .footerthree .three div{
+	margin: 10px;
+}
+footer .footerthree .three div:hover{
+	color: white;
+}
+/*****************footer four******************/
+
+
+
+footer .footerfour{
+	height: 320px;
+	width: 320px;
+	/*background-color: green;*/
+	margin-left: 100px;
+	margin-right: 180px;
+	position: relative;
+	top: 100px;
+}
+footer .footerfour h3{
+	margin: 15px;
+	color:white;
+}
+footer .footerfour .logos2{
+	margin: 10px;
+}
+footer .footerfour .logos2 a{
+	color:#AEB6BF;
+	margin: 5px; 
+}
+footer .footerfour .logos2 .fa:hover{
+	color: white;
+}
+footer .footerfour  .subs{
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+footer .footerfour #email{
+	height: 40px;
+	width: 90%;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot{
+	width: 80px;
+	height: 30px;
+	margin-top: 15px;
+	font-size: 20px;
+}
+footer .footerfour .btnfoot:hover{
+	background-color:#AEB6BF;
+}
+
+.name{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background-color: #05090C;
+}

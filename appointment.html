@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Appointment page</title>
+	<link rel="stylesheet" type="text/css" href="Css/appointment.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header></header>
+	<div class="maingame">
+		<div class="maingametwo">
+			<h1 class="animated infinite heartBeat delay-1s">MAKE APPOINTMENT !</h1>
+			<section class="gameone">
+				<div class="gameroundone"></div>
+					<h2>Get Your Appointment Number</h2>
+					<p id="note">In this You will get your appointment number. Our Doctors will meet you Accordingly</p>
+					<p id="number"></p>
+					<button id="Enterbtn" onclick="appoint();">Get it !</button>
+					</div>
+			</section>
+			<section class="gametwo">
+				<div class="gameroundtwo">
+					<h2 class="h2">ENTER PATIENT's DETAIL</h2>
+					<p id="notetwo" style="margin-left:5px;">Please Enter the patient's detail and click n the submit button to successfully Getting Register.</p>
+					<div class="submit">
+						<div class="data">
+							<form>
+								<table>
+									<tr>
+										<td id="dtailone">
+											Name:
+										</td>
+										<td>
+											<input type="text" placeholder="Enter your Name" name="" id="dtail">
+										</td>
+									</tr>
+									<tr>
+										<td id="dtailone">
+											Address:
+										</td>
+										<td>
+											<input type="Address" placeholder="Enter your Address" name="" id="dtail">
+										</td>
+									</tr>
+									<tr>
+										<td id="dtailone">
+											Phone:
+										</td>
+										<td>
+											<select id="dtail">
+												<option>+91</option>
+												<option>+92</option>
+												<option>+93</option>
+												<option>+94</option>
+												<option>+95</option>
+												<option>+96</option>
+												<option>+97</option>
+											</select>
+											<input type="phone" placeholder="Example: 925*******" name="" id="dtail">
+										</td>
+									</tr>
+									<tr>
+										<td id="dtailone">
+											Gender:
+										</td>
+										<td id="dtail">
+											<input type="radio" name="Gender" id="dtail" id="dtail" style="height: 15px;">Male
+											<input type="radio" name="Gender" id="dtail" id="dtail" style="height: 15px;">Female
+										</td>
+									</tr>
+									<tr>
+										<td id="dtailone">
+											Email:
+										</td>
+										<td>
+											<input type="Email" placeholder="Email" name="" id="dtail">
+										</td>
+									</tr>
+									<tr>
+										<td id="dtailone">
+											Appointment Number:
+										</td>
+										<td>
+											<input type="text" placeholder="Appointment Number" name="" id="dtailapp">
+										</td>
+									</tr>
+								</table>
+							</form>
+							<button id="submitvalue" onclick="finalsubmit();">SUBMIT</button>
+							<div id="output">
+								<img src="img/submit.png" alt="correct" id="correct" width="100" height="80">
+								<img src="img/error.png" alt="incorrect" id="incorrect" width="100" height="80">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	 <footer>
+			<div class="footer">
+				<section class="footerone">
+					<h3>MENU</h3>
+					<div class="one">
+						<div>Home</div>
+						<div>Appointment</div>
+						<div>Find Doctors</div>
+						<div>Location</div>
+						<div>Ambullance</div>
+						<div>Medical Shop</div>
+						<div>Services</div>
+					</div>
+				</section>
+				<section class="footertwo">
+					<h3>PATIENTS SUPPORT</h3>
+					<div class="two">
+						<p class="para">
+							Patients Experience Representatives are waiting to provide you with professional service via email between 11:00 IST and 22:00 IST. We will be happy to solve every query of yours!.
+						</p>
+					</div>
+				</section>
+				<section class="footerthree">
+					<h3>CENTRE OF EXCELLENCE</h3>
+					<div class="three">
+						<div>Oncology</div>
+						<div>Orthopaedics</div>
+						<div>Cardiology</div>
+						<div>Neurology</div>
+						<div>Gastroenterology</div>
+						<div>Transplant</div>
+						<div>Cancer care</div>
+					</div>
+				</section>
+				<section class="footerfour">
+					<h3>CONTACT</h3>
+					<div class="logos">
+						<div class="logos2">
+							<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+							<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+							<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+						</div>
+					</div>
+					<p class="subs">Feedback</p>
+					<input type="text" id="email" placeholder="Type Here">
+					<button class="btnfoot">Submit</button>
+				</section>
+			</div>
+		</footer>
+		<div class="name">This site is Designed and Maintained By Deepak Gupta &copy; ALL RIGHTS RESERVED</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
